@@ -5,7 +5,7 @@ using UnityEngine;
 public class Mover : MonoBehaviour
 {
     //SeralizeField gives Unity the access to the variables to change in app, however chaning them in unity interface will not change them in the script
-    [SerializeField] float yValue = 0.0f;
+    //[SerializeField] float yValue = 0.0f;
 
 
     // Start is called before the first frame update
@@ -18,6 +18,6 @@ public class Mover : MonoBehaviour
     {
         float xValue = Input.GetAxis("Horizontal");
         float zValue = Input.GetAxis("Vertical");
-        transform.Translate(xValue, yValue, zValue);
+        transform.Translate(xValue, 0, zValue);
     }
 }
