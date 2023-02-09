@@ -5,9 +5,12 @@ using UnityEngine;
 public class Movement : MonoBehaviour
 {
     // Start is called before the first frame update
+    Rigidbody rb; 
+    [SerializeField]float mainThrust = 1000f;
+
     void Start()
     {
-        
+        rb = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
@@ -17,11 +20,13 @@ public class Movement : MonoBehaviour
          ProcessRotation();        
     }
 
+
     void ProcessThrust() 
     {
-if (Input.GetKey(KeyCode.Space))
+    if (Input.GetKey(KeyCode.Space))
         {
-            Debug.Log("Pressed SPACE - THRUSTING");
+            //Check out vector shortcuts up = 0, 1, 0
+            rb.AddRelativeForce(Vector3.up * mainThrust * Time.deltaTime);
         }
     }
 
@@ -30,11 +35,11 @@ if (Input.GetKey(KeyCode.Space))
     {
     if (Input.GetKey(KeyCode.A))
         {
-            Debug.Log("Rotating Left");
+            transform.Rotate(Vector3.forward);
         } 
         else if(Input.GetKey(KeyCode.D))
         {
-            Debug.Log("Rotating Right");
+            transform.Rotate(-Vector3.forward);
         }
     }
 }
