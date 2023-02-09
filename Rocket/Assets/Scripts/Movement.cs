@@ -17,6 +17,13 @@ public class Movement : MonoBehaviour
         {
             Debug.Log("Pressed SPACE - THRUSTING");
         }
-
+        if (Input.GetKey(KeyCode.A))
+        {
+            Debug.Log("Rotating Left");
+        }
+        if(Input.GetKey(KeyCode.D))
+        {
+            Debug.Log("Rotating Right");
+        }
     }
 }
