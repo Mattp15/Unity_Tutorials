@@ -583,7 +583,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rocket
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7388315196458750016, guid: a638dfd5cf5984eb09a4f28adb4d1a3e, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a638dfd5cf5984eb09a4f28adb4d1a3e, type: 3}
 --- !u!1001 &8351377932185146638
 PrefabInstance:
