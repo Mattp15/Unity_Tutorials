@@ -26,8 +26,10 @@ public class CollisionHandler : MonoBehaviour
                 break;
             case "Friendly":
                 break;
-            default:
+            case "Respawn":
                 CrashSequence();
+                break;
+            default:
                 break;
         }    
     }
