@@ -36,6 +36,7 @@ public class CollisionHandler : MonoBehaviour
 
     private void StartSuccessSequence()
     {
+        audioSource.Stop();
         audioSource.PlayOneShot(success);
         GetComponent<Movement>().enabled = false;
         Invoke("LoadNextLevel", levelLoadDelay);
@@ -61,6 +62,7 @@ public class CollisionHandler : MonoBehaviour
     void CrashSequence()
     {
         isTransitioning = true;
+        audioSource.Stop();
         audioSource.PlayOneShot(crash);
         //!TODO add particle effect on crash
         GetComponent<Movement>().enabled = false;
