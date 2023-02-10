@@ -535,48 +535,8 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: -538207336796943820, guid: a638dfd5cf5984eb09a4f28adb4d1a3e, type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: -538207336796943820, guid: a638dfd5cf5984eb09a4f28adb4d1a3e, type: 3}
-      propertyPath: m_PlayOnAwake
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3768160274889341357, guid: a638dfd5cf5984eb09a4f28adb4d1a3e, type: 3}
-      propertyPath: Crash
-      value: 
-      objectReference: {fileID: 8300000, guid: 0f76d26ec92a146718542895b50169ef, type: 3}
-    - target: {fileID: 3768160274889341357, guid: a638dfd5cf5984eb09a4f28adb4d1a3e, type: 3}
-      propertyPath: crash
-      value: 
-      objectReference: {fileID: 8300000, guid: 0f76d26ec92a146718542895b50169ef, type: 3}
-    - target: {fileID: 3768160274889341357, guid: a638dfd5cf5984eb09a4f28adb4d1a3e, type: 3}
-      propertyPath: success
-      value: 
-      objectReference: {fileID: 8300000, guid: 93bcec473e8da4e8bb32672fc818e01f, type: 3}
-    - target: {fileID: 3768160274889341357, guid: a638dfd5cf5984eb09a4f28adb4d1a3e, type: 3}
-      propertyPath: levelLoadDelay
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4500185993985934275, guid: a638dfd5cf5984eb09a4f28adb4d1a3e, type: 3}
-      propertyPath: mainEngine
-      value: 
-      objectReference: {fileID: 8300000, guid: 2d6da8e50cb554f8781fc1c48225f1b3, type: 3}
     - target: {fileID: 7388315196643427330, guid: a638dfd5cf5984eb09a4f28adb4d1a3e, type: 3}
       propertyPath: m_RootOrder
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 7388315196643427330, guid: a638dfd5cf5984eb09a4f28adb4d1a3e, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 7388315196643427330, guid: a638dfd5cf5984eb09a4f28adb4d1a3e, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 7388315196643427330, guid: a638dfd5cf5984eb09a4f28adb4d1a3e, type: 3}
-      propertyPath: m_LocalScale.z
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7388315196643427330, guid: a638dfd5cf5984eb09a4f28adb4d1a3e, type: 3}
@@ -623,30 +583,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rocket
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 0}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a638dfd5cf5984eb09a4f28adb4d1a3e, type: 3}
---- !u!1 &7388315196458750015 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7388315196643427334, guid: a638dfd5cf5984eb09a4f28adb4d1a3e, type: 3}
-  m_PrefabInstance: {fileID: 7388315196458750014}
-  m_PrefabAsset: {fileID: 0}
---- !u!54 &7388315196458750021
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7388315196458750015}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 8
-  m_CollisionDetection: 0
 --- !u!1001 &8351377932185146638
 PrefabInstance:
   m_ObjectHideFlags: 0

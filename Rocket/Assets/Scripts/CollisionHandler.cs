@@ -9,6 +9,7 @@ public class CollisionHandler : MonoBehaviour
     [SerializeField] AudioClip success;
     AudioSource audioSource;
     
+    bool isTransitioning = false;
      void Start() 
         {
             audioSource = GetComponent<AudioSource>();
@@ -16,6 +17,8 @@ public class CollisionHandler : MonoBehaviour
     
      void OnCollisionEnter(Collision other) 
     {
+        if(isTransitioning) { return; }
+
         switch(other.gameObject.tag)
         {
             case "Finish":
@@ -55,8 +58,8 @@ public class CollisionHandler : MonoBehaviour
     }
     void CrashSequence()
     {
-
-        audioSource.PlayOneShot(crash);        
+        isTransitioning = true;
+        audioSource.PlayOneShot(crash);
         //!TODO add particle effect on crash
         GetComponent<Movement>().enabled = false;
         Invoke("ReloadLevel", levelLoadDelay);
