@@ -14,7 +14,7 @@ public class CollisionHandler : MonoBehaviour
             case "Friendly":
                 break;
             default:
-                ReloadLevel();
+                Invoke("ReloadLevel", 1f);
                 break;
         }    
     }
