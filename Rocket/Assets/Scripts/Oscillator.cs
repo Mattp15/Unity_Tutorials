@@ -7,6 +7,7 @@ public class Oscillator : MonoBehaviour
     Vector3 startingPosition;
     [SerializeField] Vector3 movementVector;
     [SerializeField] [Range(0,1)] float movementFactor;
+    [SerializeField] float period = 10f;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,6 +17,9 @@ public class Oscillator : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        const float tau = Mathf.PI * 2;
+        float cycles = Time.time / period;
+
         Vector3 offset = movementVector * movementFactor;
         transform.position = startingPosition + offset;
     }
