@@ -13,12 +13,12 @@ public class Oscillator : MonoBehaviour
     {
         startingPosition = transform.position;
         movementFactor = 0;
-        if(period <=0){return;}
     }
 
     // Update is called once per frame
     void Update()
     {
+        if(period <=0f){return;}
         const float tau = Mathf.PI * 2;//const value of double pie 6.283 apparently better for circles
         float cycles = Time.time / period;
         float rawSinWave = Mathf.Sin(cycles * tau); //TextGenerationSettings from -1 to 1
