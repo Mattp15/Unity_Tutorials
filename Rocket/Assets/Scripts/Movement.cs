@@ -10,6 +10,8 @@ public class Movement : MonoBehaviour
     [SerializeField]float mainThrust = 1000f;
     [SerializeField] float rotateThrust = 100f;
     [SerializeField] AudioClip mainEngine;
+    [SerializeField] ParticleSystem rightParticles;
+    [SerializeField] ParticleSystem leftParticles;
 
     void Start()
     {
@@ -49,11 +51,18 @@ public class Movement : MonoBehaviour
     if (Input.GetKey(KeyCode.A))
         {
             ApplyRotation(-rotateThrust);
+            rightParticles.Play();
         } 
         else if(Input.GetKey(KeyCode.D))
         {
             ApplyRotation(rotateThrust);
+            if(!leftParticles.isPlaying)
+            {
+                leftParticles.Play();
+            }
+            
         }
+
     }
     void ApplyRotation(float rotationThisFrame)
     {
