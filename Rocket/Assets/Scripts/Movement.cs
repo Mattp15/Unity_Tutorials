@@ -12,6 +12,8 @@ public class Movement : MonoBehaviour
     [SerializeField] AudioClip mainEngine;
     [SerializeField] ParticleSystem rightParticles;
     [SerializeField] ParticleSystem leftParticles;
+        [SerializeField] ParticleSystem thrustParticles;
+
 
     void Start()
     {
@@ -38,10 +40,15 @@ public class Movement : MonoBehaviour
             {
                 audioSource.PlayOneShot(mainEngine);
             } 
+            if(!thrustParticles.isPlaying)
+            {
+                thrustParticles.Play();
+            }
         } 
         else
         {
             audioSource.Stop();
+            thrustParticles.Stop();
         }
     }
 
@@ -59,8 +66,7 @@ public class Movement : MonoBehaviour
             if(!leftParticles.isPlaying)
             {
                 leftParticles.Play();
-            }
-            
+            }     
         }
 
     }
