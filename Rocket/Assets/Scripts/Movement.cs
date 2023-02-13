@@ -12,7 +12,7 @@ public class Movement : MonoBehaviour
     [SerializeField] AudioClip mainEngine;
     [SerializeField] ParticleSystem rightParticles;
     [SerializeField] ParticleSystem leftParticles;
-        [SerializeField] ParticleSystem thrustParticles;
+    [SerializeField] ParticleSystem thrustParticles;
 
 
     void Start()
@@ -76,7 +76,11 @@ public class Movement : MonoBehaviour
     private void TurningLeft()
     {
         ApplyRotation(-rotateThrust);
-        rightParticles.Play();
+        if(!rightParticles.isPlaying)
+        {
+            rightParticles.Play();
+        }
+        
     }
 
     void ApplyRotation(float rotationThisFrame)
