@@ -13,6 +13,7 @@ public class Oscillator : MonoBehaviour
     {
         startingPosition = transform.position;
         movementFactor = 0;
+        if(period <=0){return;}
     }
 
     // Update is called once per frame

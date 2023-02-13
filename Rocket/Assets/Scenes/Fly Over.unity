@@ -470,7 +470,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startingPosition: {x: 0, y: 0, z: 0}
   movementVector: {x: 50, y: 0, z: 0}
-  period: 20
+  period: 0
 --- !u!1 &1393646065
 GameObject:
   m_ObjectHideFlags: 0
