@@ -41,27 +41,6 @@ public class Movement : MonoBehaviour
             StopThrusting();
         }
     }
-
-    private void StopThrusting()
-    {
-        audioSource.Stop();
-        thrustParticles.Stop();
-    }
-
-    private void StartThrusting()
-    {
-        rb.AddRelativeForce(Vector3.up * mainThrust * Time.deltaTime);
-
-        if (!audioSource.isPlaying)
-        {
-            audioSource.PlayOneShot(mainEngine);
-        }
-        if (!thrustParticles.isPlaying)
-        {
-            thrustParticles.Play();
-        }
-    }
-
     void ProcessRotation()
     {
     if (Input.GetKey(KeyCode.A))
@@ -105,5 +84,25 @@ public class Movement : MonoBehaviour
         rb.freezeRotation = true; //freezing rotation so we can manually rotate
         transform.Rotate(-Vector3.forward * rotationThisFrame * Time.deltaTime);
         rb.freezeRotation = false;
+    }
+
+    private void StopThrusting()
+    {
+        audioSource.Stop();
+        thrustParticles.Stop();
+    }
+
+    private void StartThrusting()
+    {
+        rb.AddRelativeForce(Vector3.up * mainThrust * Time.deltaTime);
+
+        if (!audioSource.isPlaying)
+        {
+            audioSource.PlayOneShot(mainEngine);
+        }
+        if (!thrustParticles.isPlaying)
+        {
+            thrustParticles.Play();
+        }
     }
     }
