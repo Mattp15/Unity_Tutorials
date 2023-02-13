@@ -40,6 +40,7 @@
      <Compile Include="Assets/coll.cs" />
      <Compile Include="Assets/Scripts/Movement.cs" />
      <Compile Include="Assets/Scripts/Oscillator.cs" />
+     <Compile Include="Assets/Scripts/QuitApplication.cs" />
     <Reference Include="UnityEngine">
         <HintPath>/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
