@@ -57,9 +57,12 @@ public class CollisionHandler : MonoBehaviour
 
     private void StartSuccessSequence()
     {
-        successParticles.Play();
-        audioSource.Stop();
-        audioSource.PlayOneShot(success);
+        if(!successParticles.isPlaying){
+            successParticles.Play();
+            audioSource.Stop();
+            audioSource.PlayOneShot(success);
+        }
+        
         GetComponent<Movement>().enabled = false;
         Invoke("LoadNextLevel", levelLoadDelay);
     }
