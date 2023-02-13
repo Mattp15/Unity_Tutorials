@@ -19,6 +19,7 @@ public class Oscillator : MonoBehaviour
     {
         const float tau = Mathf.PI * 2;
         float cycles = Time.time / period;
+        float rawSinWage = Mathf.Sin(cycles * tau);
 
         Vector3 offset = movementVector * movementFactor;
         transform.position = startingPosition + offset;
