@@ -68,6 +68,11 @@ public class Movement : MonoBehaviour
                 leftParticles.Play();
             }     
         }
+        else 
+        {
+            rightParticles.Stop();
+            leftParticles.Stop();
+        }
 
     }
     void ApplyRotation(float rotationThisFrame)
