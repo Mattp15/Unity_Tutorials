@@ -189,3 +189,21 @@ Received Import Request.
   path: Assets/Tree9/Leafs19.tga
   artifactKey: Guid(58552de7d543f6e4095feb3806e56f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Tree9/Leafs19.tga using Guid(58552de7d543f6e4095feb3806e56f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f97dc0f9d7a98882bc3a6ff559d4c7d1') in 0.360345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 398.200768 seconds.
+  path: Assets/NewLayer 2.terrainlayer
+  artifactKey: Guid(4540f5aa8b8674ad78080adb3f337fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewLayer 2.terrainlayer using Guid(4540f5aa8b8674ad78080adb3f337fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65605ec132af34c316ef612940f8f4ba') in 0.045952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 49.603510 seconds.
+  path: Assets/NewLayer 2.terrainlayer
+  artifactKey: Guid(4540f5aa8b8674ad78080adb3f337fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewLayer 2.terrainlayer using Guid(4540f5aa8b8674ad78080adb3f337fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '395fe0acea048ff1594ee404f9ea52ff') in 0.005230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.956768 seconds.
+  path: Assets/NewLayer 2.terrainlayer
+  artifactKey: Guid(4540f5aa8b8674ad78080adb3f337fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewLayer 2.terrainlayer using Guid(4540f5aa8b8674ad78080adb3f337fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ebea75fd34bdcf3aa208761703d8f54') in 0.004010 seconds 
