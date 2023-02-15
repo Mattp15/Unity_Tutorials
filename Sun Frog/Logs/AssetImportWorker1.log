@@ -601,3 +601,105 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 515.527262 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(547241f8bae0543118a267c3fb419318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(547241f8bae0543118a267c3fb419318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2469af59a1de3d334115004fc9926804') in 0.047032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 84.103651 seconds.
+  path: Assets/ProceduralTerrainPainter/_Demo/Layers/Dirt.terrainlayer
+  artifactKey: Guid(eb742adf8ec7a8b4684109a139de6019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProceduralTerrainPainter/_Demo/Layers/Dirt.terrainlayer using Guid(eb742adf8ec7a8b4684109a139de6019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ecaa7692572a6c9c4bb26d5e88820c7') in 0.010750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/ProceduralTerrainPainter/_Demo/Layers/Sand.terrainlayer
+  artifactKey: Guid(9a73362259799e748b5f32ee4d5b9f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProceduralTerrainPainter/_Demo/Layers/Sand.terrainlayer using Guid(9a73362259799e748b5f32ee4d5b9f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b6c62f0a7b03155d39cc564977440f3') in 0.005132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/ProceduralTerrainPainter/_Demo/Layers/Gravel.terrainlayer
+  artifactKey: Guid(0cb80391d22817b42a6231c64293ae96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProceduralTerrainPainter/_Demo/Layers/Gravel.terrainlayer using Guid(0cb80391d22817b42a6231c64293ae96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f584b6ceac3a025d162fc6e1ea8b825') in 0.005603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/ProceduralTerrainPainter/_Demo/Layers/Snow.terrainlayer
+  artifactKey: Guid(c52ad77efecd38146bfb167ad0f38daf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProceduralTerrainPainter/_Demo/Layers/Snow.terrainlayer using Guid(c52ad77efecd38146bfb167ad0f38daf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6548e0d771a72e9b6003999e8b70f35') in 0.005549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/ProceduralTerrainPainter/_Demo/Layers/Puddles.terrainlayer
+  artifactKey: Guid(3d81b9bfeafeb1f40b4d3c7d03d1e108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProceduralTerrainPainter/_Demo/Layers/Puddles.terrainlayer using Guid(3d81b9bfeafeb1f40b4d3c7d03d1e108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbbae43e75c1023f9bde2d116b7d1075') in 0.003637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 52.795434 seconds.
+  path: Assets/ProceduralTerrainPainter/_Demo/Textures/Gravel_020_Normals.png
+  artifactKey: Guid(7ec5f51d29b74cb488abb7979cf79b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProceduralTerrainPainter/_Demo/Textures/Gravel_020_Normals.png using Guid(7ec5f51d29b74cb488abb7979cf79b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10b021da98e6bc07c909809b12ba7598') in 0.009598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/ProceduralTerrainPainter/_Demo/Textures/Sand_034_Normals.png
+  artifactKey: Guid(a89790c8eca6fc54db66b07dd4dc3ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProceduralTerrainPainter/_Demo/Textures/Sand_034_Normals.png using Guid(a89790c8eca6fc54db66b07dd4dc3ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40de02b1e79eecbc3fbbefe86c54a323') in 0.005889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/ProceduralTerrainPainter/_Demo/Textures/Rock_003_Albedo.png
+  artifactKey: Guid(2e0153b3300be444d991f89fd969cb04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProceduralTerrainPainter/_Demo/Textures/Rock_003_Albedo.png using Guid(2e0153b3300be444d991f89fd969cb04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4054d48fbeeec5d97fe434eee6f2373') in 0.005076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/ProceduralTerrainPainter/_Demo/Textures/Snow_006_Albedo.png
+  artifactKey: Guid(4b17739d8bfd9e149b62d2c1e454e558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProceduralTerrainPainter/_Demo/Textures/Snow_006_Albedo.png using Guid(4b17739d8bfd9e149b62d2c1e454e558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bef9a16b784cbe61d8d70490e328620e') in 0.004141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/ProceduralTerrainPainter/_Demo/Textures/Rock_003_Normals.png
+  artifactKey: Guid(7ac01204a93e9d041b6d18d960ccfacd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProceduralTerrainPainter/_Demo/Textures/Rock_003_Normals.png using Guid(7ac01204a93e9d041b6d18d960ccfacd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61c51d1be909d78ea201b2d8aecb1f76') in 0.004623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 236.559070 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(547241f8bae0543118a267c3fb419318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(547241f8bae0543118a267c3fb419318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0f054b319b98d980afef494f5c3e6bf') in 0.013141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.555927 seconds.
+  path: Assets/ProceduralTerrainPainter/_Demo/TerrainData/TerrainChunk_1.asset
+  artifactKey: Guid(1b49923812742c241af8fabb84e36acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProceduralTerrainPainter/_Demo/TerrainData/TerrainChunk_1.asset using Guid(1b49923812742c241af8fabb84e36acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90aa7f64915f693e4366fb3344979897') in 0.012428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/ProceduralTerrainPainter/_Demo/TerrainData/TerrainChunk_2.asset
+  artifactKey: Guid(06b03729d66083744a7ca73245bd3cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProceduralTerrainPainter/_Demo/TerrainData/TerrainChunk_2.asset using Guid(06b03729d66083744a7ca73245bd3cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb4d7dbaa2ed5b95f55bc55a6683a8c1') in 0.011694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 55.060574 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(547241f8bae0543118a267c3fb419318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(547241f8bae0543118a267c3fb419318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b74b311090f35f6ee6403e958f2599ea') in 0.006805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 84.176760 seconds.
+  path: Packages/com.jbooth.microsplat.core/Examples/Scene/MicroSplatData/MicroSplat.mat
+  artifactKey: Guid(25d3e5f4416d246cd98642c94a1f1e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.jbooth.microsplat.core/Examples/Scene/MicroSplatData/MicroSplat.mat using Guid(25d3e5f4416d246cd98642c94a1f1e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b6300f99ee0716ecb0532f33bbf4776') in 0.570401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 112.313722 seconds.
+  path: Assets/ProceduralTerrainPainter/Shaders/Noise.hlsl
+  artifactKey: Guid(2daea484bf984c319e6f827608a76110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProceduralTerrainPainter/Shaders/Noise.hlsl using Guid(2daea484bf984c319e6f827608a76110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da66f74826c6c9d65a4a93cbf6c16b90') in 0.032693 seconds 
