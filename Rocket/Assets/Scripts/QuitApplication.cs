@@ -9,7 +9,7 @@ public class QuitApplication : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.Escape))
         {
             Debug.Log("quitting");
-            Application.Quit(); //This won't show anything while compiling in unity
+            Application.Quit(); //This won't show anything while compiling in unity - this fully closes the application
         }
     }
 }
