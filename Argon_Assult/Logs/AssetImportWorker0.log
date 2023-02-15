@@ -207,3 +207,33 @@ Received Import Request.
   path: Assets/NewLayer 2.terrainlayer
   artifactKey: Guid(4540f5aa8b8674ad78080adb3f337fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/NewLayer 2.terrainlayer using Guid(4540f5aa8b8674ad78080adb3f337fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ebea75fd34bdcf3aa208761703d8f54') in 0.004010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1220.474757 seconds.
+  path: Assets/3D Haven/Free Fantasy Terrain Textures/Demo/Terrains/Terrain Layers/3DH FTT Cliff_001 4K.terrainlayer
+  artifactKey: Guid(af62f0aef08bceb4298446c1387ac4aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Haven/Free Fantasy Terrain Textures/Demo/Terrains/Terrain Layers/3DH FTT Cliff_001 4K.terrainlayer using Guid(af62f0aef08bceb4298446c1387ac4aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3987520b0f6ed052ead8bd93dba77ebb') in 0.018741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 177.788012 seconds.
+  path: Assets/a.asset
+  artifactKey: Guid(f83b1249e0c3143b39ed220dd74b82db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/a.asset using Guid(f83b1249e0c3143b39ed220dd74b82db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74767bb78b64c75dead53e01cb296099') in 0.033907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/NewLayer 1.terrainlayer
+  artifactKey: Guid(cc835cc23f91548e692cfb9fd2c1a9e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewLayer 1.terrainlayer using Guid(cc835cc23f91548e692cfb9fd2c1a9e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cde10a9e18021cedfa180e8241f3bf5') in 0.006339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/NewLayer 3.terrainlayer
+  artifactKey: Guid(d0950755f16114ce388609b183bdb36b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewLayer 3.terrainlayer using Guid(d0950755f16114ce388609b183bdb36b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2136e2808674c6630dd3416d8eb2421c') in 0.003982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 209.200853 seconds.
+  path: Assets/NewLayer 4.terrainlayer
+  artifactKey: Guid(228c81731d16c47ffa906aa4a45a5471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewLayer 4.terrainlayer using Guid(228c81731d16c47ffa906aa4a45a5471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36708aefa930a71bc3036f4c2cfd922d') in 0.004653 seconds 
