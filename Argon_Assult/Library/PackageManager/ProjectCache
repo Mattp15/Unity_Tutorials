@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638120299010000000
+      ticks: 638120314360000000
     m_Hash: 2465031950
   m_LockFileStatus:
     m_FilePath: /Users/matthewphillips/projects/First_unity_project/Argon_Assult/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638120299030000000
+      ticks: 638120314380000000
     m_Hash: 1291079873
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
