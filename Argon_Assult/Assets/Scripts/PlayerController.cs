@@ -13,6 +13,12 @@ public class PlayerController : MonoBehaviour
     }
 
     // Update is called once per frame
+    private void OnEnable() { //unity order of execution docs.unity3d.com/Manual/ExecutionOrder.html
+        movement.Enable();
+    }
+    private void OnDisable() {
+        movement.Disable();
+    }
     void Update()
     {
         float horizontalThrow = movement.ReadValue<Vector2>().x;//.x impliments horizontal axis (x-axis)
