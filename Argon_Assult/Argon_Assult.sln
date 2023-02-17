@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEngine.UI", "UnityEngi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.VisualScripting.Flow", "Unity.VisualScripting.Flow.csproj", "{e9e39ba4-fa03-b028-cbd2-82ad49bb5701}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.InputSystem", "Unity.InputSystem.csproj", "{e9155368-a975-94e3-d81a-8572624f2b38}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.VisualScripting.State", "Unity.VisualScripting.State.csproj", "{ec0ca08d-9a32-1a44-6a7c-b3784e1ebe99}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.VisualScripting.Core", "Unity.VisualScripting.Core.csproj", "{36bc32ce-9831-66ae-f259-22f05d97f37b}"
@@ -74,6 +76,8 @@ Global
 		{ebe99720-e444-c877-0729-cc02169537e1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{e9e39ba4-fa03-b028-cbd2-82ad49bb5701}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{e9e39ba4-fa03-b028-cbd2-82ad49bb5701}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{e9155368-a975-94e3-d81a-8572624f2b38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{e9155368-a975-94e3-d81a-8572624f2b38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ec0ca08d-9a32-1a44-6a7c-b3784e1ebe99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{ec0ca08d-9a32-1a44-6a7c-b3784e1ebe99}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36bc32ce-9831-66ae-f259-22f05d97f37b}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
