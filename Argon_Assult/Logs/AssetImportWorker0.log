@@ -675,3 +675,15 @@ Received Import Request.
   path: Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow20.prefab
   artifactKey: Guid(32335393ea400a44681c8f52b5c52015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow20.prefab using Guid(32335393ea400a44681c8f52b5c52015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d78ab76ed0b85755d1432c2c31e3e8d') in 0.041776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 266.414055 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(2043a143970c647e688ba799029567d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(2043a143970c647e688ba799029567d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4646fcf597a9031d9643d53f053845d9') in 0.002556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.829785 seconds.
+  path: Assets/Prefabs/StarSparrow2.prefab
+  artifactKey: Guid(4fdb71ea9ff064db59843dae69faa62d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/StarSparrow2.prefab using Guid(4fdb71ea9ff064db59843dae69faa62d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68c7e1af464344ca403d0ac3d2761d40') in 0.045163 seconds 
