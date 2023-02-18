@@ -29,10 +29,10 @@ public class PlayerController : MonoBehaviour
         float xThrow = movement.ReadValue<Vector2>().x;//.x impliments horizontal axis (x-axis)
         float yThrow = movement.ReadValue<Vector2>().y;//.y impliments vertical axis (y-axis)
         //Get X movement
-        float xOffset = .1f * xThrow;
+        float xOffset = xThrow * Time.deltaTime;
         float newXPos = transform.localPosition.x + xOffset;
         //Get Y movement
-        float yOffset = .1f * yThrow;
+        float yOffset = yThrow * Time.deltaTime;
         float newYPos = transform.localPosition.y + yOffset;
 
         transform.localPosition = new Vector3(newXPos, newYPos, transform.localPosition.z);
