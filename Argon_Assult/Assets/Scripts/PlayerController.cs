@@ -7,6 +7,7 @@ public class PlayerController : MonoBehaviour
 {
 
     [SerializeField] InputAction movement;
+    [SerializeField] float controlSpeed = 8.8f;
     void Start()
     {
         
@@ -29,10 +30,10 @@ public class PlayerController : MonoBehaviour
         float xThrow = movement.ReadValue<Vector2>().x;//.x impliments horizontal axis (x-axis)
         float yThrow = movement.ReadValue<Vector2>().y;//.y impliments vertical axis (y-axis)
         //Get X movement
-        float xOffset = xThrow * Time.deltaTime;
+        float xOffset = xThrow * Time.deltaTime * controlSpeed;
         float newXPos = transform.localPosition.x + xOffset;
         //Get Y movement
-        float yOffset = yThrow * Time.deltaTime;
+        float yOffset = yThrow * Time.deltaTime * controlSpeed;
         float newYPos = transform.localPosition.y + yOffset;
 
         transform.localPosition = new Vector3(newXPos, newYPos, transform.localPosition.z);

@@ -1296,6 +1296,10 @@ PrefabInstance:
       value: StarSparrow2
       objectReference: {fileID: 0}
     - target: {fileID: 7535850828058819270, guid: 4fdb71ea9ff064db59843dae69faa62d, type: 3}
+      propertyPath: controlSpeed
+      value: 20.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7535850828058819270, guid: 4fdb71ea9ff064db59843dae69faa62d, type: 3}
       propertyPath: movement.m_Id
       value: 6fed9e76-f91c-4a92-8e24-d7df5df41f05
       objectReference: {fileID: 0}
