@@ -28,11 +28,14 @@ public class PlayerController : MonoBehaviour
         //Below is the new system
         float xThrow = movement.ReadValue<Vector2>().x;//.x impliments horizontal axis (x-axis)
         float yThrow = movement.ReadValue<Vector2>().y;//.y impliments vertical axis (y-axis)
+        //Get X movement
+        float xOffset = .1f * xThrow;
+        float newXPos = transform.localPosition.x + xOffset;
+        //Get Y movement
+        float yOffset = .1f * yThrow;
+        float newYPos = transform.localPosition.y + yOffset;
 
-        transform.localPosition = new Vector3(
-            transform.localPosition.x + xThrow, 
-            transform.localPosition.y + yThrow, 
-            transform.localPosition.z);
+        transform.localPosition = new Vector3(newXPos, newYPos, transform.localPosition.z);
         
        
 
