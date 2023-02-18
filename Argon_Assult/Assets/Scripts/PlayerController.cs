@@ -21,13 +21,16 @@ public class PlayerController : MonoBehaviour
     }
     void Update()
     {
-        float horizontalThrow = movement.ReadValue<Vector2>().x;//.x impliments horizontal axis (x-axis)
-        float verticalThrow = movement.ReadValue<Vector2>().y;//.y impliments vertical axis (y-axis)
         //BELOW IS OLD SYSTEM
         // float horizontalThrow = Input.GetAxis("Horizontal");
-        Debug.Log(horizontalThrow);
         // float verticalThrow = Input.GetAxis("Vertical");
-        Debug.Log(verticalThrow);
+
+        //Below is the new system
+        float xThrow = movement.ReadValue<Vector2>().x;//.x impliments horizontal axis (x-axis)
+        float yThrow = movement.ReadValue<Vector2>().y;//.y impliments vertical axis (y-axis)
+
+        transform.localPosition = new Vector3(transform.localPosition.x, transform.localPosition.y, transform.localPosition.z);
+       
 
 
     }
