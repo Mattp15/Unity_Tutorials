@@ -7,7 +7,7 @@ public class PlayerController : MonoBehaviour
 {
 
     [SerializeField] InputAction movement;
-    [SerializeField] float controlSpeed = 8.8f;
+    float controlSpeed = 8.8f;
     void Start()
     {
         
