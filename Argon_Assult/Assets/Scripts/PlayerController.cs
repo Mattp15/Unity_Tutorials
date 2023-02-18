@@ -29,7 +29,11 @@ public class PlayerController : MonoBehaviour
         float xThrow = movement.ReadValue<Vector2>().x;//.x impliments horizontal axis (x-axis)
         float yThrow = movement.ReadValue<Vector2>().y;//.y impliments vertical axis (y-axis)
 
-        transform.localPosition = new Vector3(transform.localPosition.x, transform.localPosition.y, transform.localPosition.z);
+        transform.localPosition = new Vector3(
+            transform.localPosition.x + xThrow, 
+            transform.localPosition.y + yThrow, 
+            transform.localPosition.z);
+        
        
 
 
