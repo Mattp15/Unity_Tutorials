@@ -229,10 +229,10 @@ PlayableDirector:
   m_DirectorUpdateMode: 1
   m_InitialTime: 0
   m_SceneBindings:
-  - key: {fileID: -5891342471875571427, guid: a6a54f33195d941d5830e716414fdbdd, type: 2}
-    value: {fileID: 649281409}
   - key: {fileID: 1061914492945401443, guid: a6a54f33195d941d5830e716414fdbdd, type: 2}
     value: {fileID: 1454352815}
+  - key: {fileID: -6174775157088691580, guid: a6a54f33195d941d5830e716414fdbdd, type: 2}
+    value: {fileID: 649281409}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &351312273
@@ -701,7 +701,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0.027624218, y: 0.0000000037252899, z: -2.692104e-10, w: 0.9996184}
-  m_LocalPosition: {x: -0, y: 1.88, z: -20.32}
+  m_LocalPosition: {x: -0, y: 0.8, z: -20.38}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1041,7 +1041,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1454352814}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 64.79734, y: 87.2, z: 312.8305}
+  m_LocalPosition: {x: 313.8, y: 87.2, z: 312.8305}
   m_LocalScale: {x: 20, y: 20, z: 20}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1294,6 +1294,18 @@ PrefabInstance:
     - target: {fileID: 223080821640205496, guid: 4fdb71ea9ff064db59843dae69faa62d, type: 3}
       propertyPath: m_Name
       value: StarSparrow2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7535850828058819270, guid: 4fdb71ea9ff064db59843dae69faa62d, type: 3}
+      propertyPath: rotationFactor
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7535850828058819270, guid: 4fdb71ea9ff064db59843dae69faa62d, type: 3}
+      propertyPath: postiionRollFactor
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7535850828058819270, guid: 4fdb71ea9ff064db59843dae69faa62d, type: 3}
+      propertyPath: positionPitchFactor
+      value: -2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4fdb71ea9ff064db59843dae69faa62d, type: 3}
