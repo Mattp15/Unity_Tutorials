@@ -39,7 +39,8 @@ public class PlayerController : MonoBehaviour
     private void processRotation()
     {
         float pitchDueToPosition = transform.localPosition.y * positionPitchFactor;
-        float pitchDueToControllThrow = yThrow * controlPitchFactor;
+        // float pitchDueToControllThrow = yThrow * controlPitchFactor;// This makes the ship focus on the center of the screen up and down lock at -35 at max throw
+        float pitchDueToControllThrow = 0;//doesn't pitch but looks better than ^
         
         float pitch = pitchDueToPosition * pitchDueToControllThrow;         
         float yaw = transform.localPosition.x * positionYawFactor; //yaw control's turning left and right, i don't want
@@ -64,8 +65,8 @@ public class PlayerController : MonoBehaviour
         //Get Y movement
         float yOffset = yThrow * Time.deltaTime * controlSpeed;
         float rawYPos = transform.localPosition.y + yOffset;
-
         float clampedYPos = Mathf.Clamp(rawYPos, -yRange, yRange);
         transform.localPosition = new Vector3(clampedXPos, clampedYPos, transform.localPosition.z);
+        Debug.Log(transform.localPosition.z + yOffset);
     }
 }
