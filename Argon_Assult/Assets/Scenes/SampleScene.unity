@@ -1157,21 +1157,5 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player Rig
       objectReference: {fileID: 0}
-    - target: {fileID: 7851247265391885106, guid: b53063c8977ae429fa69492daf6378af, type: 3}
-      propertyPath: m_Materials.Array.data[1]
-      value: 
-      objectReference: {fileID: 2100000, guid: 93650598a03e42b43b19fe787c484e93, type: 2}
-    - target: {fileID: 7851247265391885117, guid: b53063c8977ae429fa69492daf6378af, type: 3}
-      propertyPath: looping
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7851247265391885117, guid: b53063c8977ae429fa69492daf6378af, type: 3}
-      propertyPath: TrailModule.sizeAffectsWidth
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7851247265391885117, guid: b53063c8977ae429fa69492daf6378af, type: 3}
-      propertyPath: InitialModule.startSize.scalar
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b53063c8977ae429fa69492daf6378af, type: 3}
