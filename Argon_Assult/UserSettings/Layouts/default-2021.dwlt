@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 19
+  controlID: 51
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -137,7 +137,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ConsoleWindow
+  m_Name: TimelineWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -148,14 +148,14 @@ MonoBehaviour:
     height: 333
   m_MinSize: {x: 101, y: 121}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 22}
+  m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 17}
   - {fileID: 15}
   - {fileID: 14}
   - {fileID: 22}
-  m_Selected: 3
-  m_LastSelected: 0
+  m_Selected: 1
+  m_LastSelected: 3
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -251,7 +251,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 20
+  controlID: 52
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -277,7 +277,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
-  controlID: 21
+  controlID: 53
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -513,7 +513,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: ac5e0000
     m_LastClickedID: 24236
-    m_ExpandedIDs: 00000000725e0000745e0000765e0000785e000000ca9a3b
+    m_ExpandedIDs: 00000000725e0000745e0000765e0000785e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -669,20 +669,20 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: defaffff
-      m_LastClickedID: -1314
+      m_SelectedIDs: c65b0000
+      m_LastClickedID: 23494
       m_ExpandedIDs: 20fbffffc65b0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Player Rig
-        m_OriginalName: Player Rig
+        m_Name: Master Timeline
+        m_OriginalName: Master Timeline
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 23494
+        m_UserData: 23476
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
         m_OriginalEventType: 0
@@ -953,9 +953,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 99.87658, y: 172.98746, z: 49.136806}
+    m_Target: {x: 64.79734, y: 87.2, z: 312.8305}
     speed: 2
-    m_Value: {x: 99.87658, y: 172.98746, z: 49.136806}
+    m_Value: {x: 64.79734, y: 87.2, z: 312.8305}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1002,13 +1002,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.0014120531, y: -0.62418324, z: 0.0011280657, w: -0.7812686}
+    m_Target: {x: -0.35127646, y: -0.28710508, z: 0.11410679, w: -0.8838212}
     speed: 2
-    m_Value: {x: -0.0014120612, y: -0.62418675, z: 0.0011280722, w: -0.781273}
+    m_Value: {x: -0.35127914, y: -0.28710726, z: 0.11410766, w: -0.8838279}
   m_Size:
-    m_Target: 12.124355
+    m_Target: 207.65018
     speed: 2
-    m_Value: 12.124355
+    m_Value: 207.65018
   m_Ortho:
     m_Target: 0
     speed: 2

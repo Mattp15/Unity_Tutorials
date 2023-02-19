@@ -12,10 +12,11 @@ public class PlayerController : MonoBehaviour
     float controlSpeed = 8.8f;
     float xThrow, yThrow;
     [SerializeField] float positionPitchFactor = -2.5f;
-    [SerializeField] float controlPitchFactor = -10f;
-    [SerializeField] float positionRollFactor = -2f;
+    [SerializeField] float controlPitchFactor = 2f;
+    [SerializeField] float positionYawFactor = 2f;    
+    [SerializeField] float controlRollFactor = -5f;    
 
-    [SerializeField] private float rotationFactor;
+
 
     void Start()
     {
@@ -41,10 +42,9 @@ public class PlayerController : MonoBehaviour
         float pitchDueToControllThrow = yThrow * controlPitchFactor;
         
         float pitch = pitchDueToPosition * pitchDueToControllThrow;         
-        float yaw = 0f;
-        float roll = transform.localPosition.x * positionRollFactor + xThrow * controlPitchFactor;
-        Quaternion targetRotation = Quaternion.Euler(pitch, yaw, roll);
-        transform.localRotation = Quaternion.RotateTowards(transform.localRotation, targetRotation, rotationFactor);
+        float yaw = transform.localPosition.x * positionYawFactor; //yaw control's turning left and right, i don't want
+        float roll = xThrow * controlRollFactor;
+        transform.localRotation= Quaternion.Euler(pitch, yaw, roll);
     }
 
     private void processTranslation()

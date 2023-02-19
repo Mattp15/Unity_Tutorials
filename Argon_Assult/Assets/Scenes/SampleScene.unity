@@ -1305,7 +1305,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7535850828058819270, guid: 4fdb71ea9ff064db59843dae69faa62d, type: 3}
       propertyPath: positionPitchFactor
-      value: -2
+      value: -2.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4fdb71ea9ff064db59843dae69faa62d, type: 3}
