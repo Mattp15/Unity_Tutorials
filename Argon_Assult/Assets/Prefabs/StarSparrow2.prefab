@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 219644573214647406}
-  - component: {fileID: 7535850828058819270}
+  - component: {fileID: 4872461563344014}
   m_Layer: 0
   m_Name: StarSparrow2
   m_TagString: Untagged
@@ -47,7 +47,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7535850828058819270
+--- !u!114 &4872461563344014
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -63,15 +63,55 @@ MonoBehaviour:
     m_Name: Movement
     m_Type: 0
     m_ExpectedControlType: 
-    m_Id: a04efb54-a712-4b0c-8ea1-bfec121aadf6
+    m_Id: 6c7bf117-22df-451a-9a72-f8a9638429fc
     m_Processors: 
     m_Interactions: 
-    m_SingletonActionBindings: []
+    m_SingletonActionBindings:
+    - m_Name: 2D Vector
+      m_Id: 3b07a36f-5e4e-4f9c-ad41-789d209513b3
+      m_Path: 2DVector
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Movement
+      m_Flags: 4
+    - m_Name: up
+      m_Id: ef0288aa-99dc-4841-8cd3-e524219366ee
+      m_Path: <Keyboard>/w
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Movement
+      m_Flags: 8
+    - m_Name: down
+      m_Id: a82e35f1-06d6-4d28-9a28-c32565b6e171
+      m_Path: <Keyboard>/s
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Movement
+      m_Flags: 8
+    - m_Name: left
+      m_Id: 17814f11-1117-4d78-ad7e-76f2594ffd57
+      m_Path: <Keyboard>/a
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Movement
+      m_Flags: 8
+    - m_Name: right
+      m_Id: 97321010-d0bd-4fcf-a048-844e64e285c6
+      m_Path: <Keyboard>/d
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Movement
+      m_Flags: 8
     m_Flags: 0
   positionPitchFactor: -2.5
   controlPitchFactor: 2
   positionYawFactor: 2
-  controlRollFactor: -5
+  controlRollFactor: -25
 --- !u!1001 &453859027608412688
 PrefabInstance:
   m_ObjectHideFlags: 0

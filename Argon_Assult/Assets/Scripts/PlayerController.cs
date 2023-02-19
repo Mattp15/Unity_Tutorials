@@ -9,12 +9,12 @@ public class PlayerController : MonoBehaviour
     [SerializeField] InputAction movement;
     float xRange = 10f;
     float yRange = 7f;
-    float controlSpeed = 8.8f;
+    float controlSpeed = 30f;
     float xThrow, yThrow;
-    [SerializeField] float positionPitchFactor = -2.5f;
-    [SerializeField] float controlPitchFactor = 2f;
+    [SerializeField] float positionPitchFactor = -2f;
+    [SerializeField] float controlPitchFactor = -15f;
     [SerializeField] float positionYawFactor = 2f;    
-    [SerializeField] float controlRollFactor = -5f;    
+    [SerializeField] float controlRollFactor = -20f;    
 
 
 
