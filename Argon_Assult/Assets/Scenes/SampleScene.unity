@@ -708,6 +708,11 @@ Transform:
   m_Father: {fileID: 649281408}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 3.166, y: 0, z: 0}
+--- !u!1 &986368301 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 223080821640205496, guid: 4fdb71ea9ff064db59843dae69faa62d, type: 3}
+  m_PrefabInstance: {fileID: 224365144600678627}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1097440913
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1240,6 +1245,71 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 219644573214647406, guid: 4fdb71ea9ff064db59843dae69faa62d, type: 3}
   m_PrefabInstance: {fileID: 224365144600678627}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &4872461563344014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 986368301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dd96ea9748a24c89954ac13078b9023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movement:
+    m_Name: Movement
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 6c7bf117-22df-451a-9a72-f8a9638429fc
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 2D Vector
+      m_Id: 3b07a36f-5e4e-4f9c-ad41-789d209513b3
+      m_Path: 2DVector
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Movement
+      m_Flags: 4
+    - m_Name: up
+      m_Id: ef0288aa-99dc-4841-8cd3-e524219366ee
+      m_Path: <Keyboard>/w
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Movement
+      m_Flags: 8
+    - m_Name: down
+      m_Id: a82e35f1-06d6-4d28-9a28-c32565b6e171
+      m_Path: <Keyboard>/s
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Movement
+      m_Flags: 8
+    - m_Name: left
+      m_Id: 17814f11-1117-4d78-ad7e-76f2594ffd57
+      m_Path: <Keyboard>/a
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Movement
+      m_Flags: 8
+    - m_Name: right
+      m_Id: 97321010-d0bd-4fcf-a048-844e64e285c6
+      m_Path: <Keyboard>/d
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Movement
+      m_Flags: 8
+    m_Flags: 0
+  positionPitchFactor: -2.5
+  controlPitchFactor: 2
+  positionYawFactor: 2
+  controlRollFactor: -5
 --- !u!1001 &224365144600678627
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1303,9 +1373,6 @@ PrefabInstance:
       propertyPath: postiionRollFactor
       value: -1
       objectReference: {fileID: 0}
-    - target: {fileID: 7535850828058819270, guid: 4fdb71ea9ff064db59843dae69faa62d, type: 3}
-      propertyPath: positionPitchFactor
-      value: -2.5
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7535850828058819270, guid: 4fdb71ea9ff064db59843dae69faa62d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 4fdb71ea9ff064db59843dae69faa62d, type: 3}

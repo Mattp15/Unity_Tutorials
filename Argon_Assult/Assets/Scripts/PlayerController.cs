@@ -44,7 +44,7 @@ public class PlayerController : MonoBehaviour
         float pitch = pitchDueToPosition * pitchDueToControllThrow;         
         float yaw = transform.localPosition.x * positionYawFactor; //yaw control's turning left and right, i don't want
         float roll = xThrow * controlRollFactor;
-        transform.localRotation= Quaternion.Euler(pitch, yaw, roll);
+        transform.localRotation = Quaternion.Euler(pitch, yaw, roll);
     }
 
     private void processTranslation()
