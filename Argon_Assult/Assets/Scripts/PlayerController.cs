@@ -9,15 +9,15 @@ public class PlayerController : MonoBehaviour
     [Header("General Setup Settings")]
     [Tooltip("Player input getter")] [SerializeField] InputAction movement;
     [Header("Screen Position Tuning")]
-    [SerializeField] float controlSpeed = 30f;
-    [SerializeField] float xRange = 9f;
-    [SerializeField] float yRange = 7.5f;
+    [Tooltip("Movement Speed")] [SerializeField] float controlSpeed = 30f;
+    [Tooltip("Left and right screen limit")] [SerializeField] float xRange = 9f;
+    [Tooltip("Up and down screen limit")] [SerializeField] float yRange = 7.5f;
     
     [Header("Player movement control")]
-    [SerializeField] float positionPitchFactor = -2f;
-    [SerializeField] float controlPitchFactor = -15f;
-    [SerializeField] float positionYawFactor = 2f;    
-    [SerializeField] float controlRollFactor = -20f; 
+    [Tooltip("How much the object tilts up and down - not using")] [SerializeField] float positionPitchFactor = -2f;
+    [Tooltip("The speed of the tilt up and down - not using")] [SerializeField] float controlPitchFactor = -15f;
+    [Tooltip("")] [SerializeField] float positionYawFactor = 2f;    
+    [Tooltip("")] [SerializeField] float controlRollFactor = -20f; 
     [SerializeField] InputAction fire;   
     [SerializeField] GameObject[] lasers;
 
