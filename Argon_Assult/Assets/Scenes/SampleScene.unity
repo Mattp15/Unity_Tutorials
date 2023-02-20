@@ -1157,5 +1157,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player Rig
       objectReference: {fileID: 0}
+    - target: {fileID: 7851247264444586274, guid: b53063c8977ae429fa69492daf6378af, type: 3}
+      propertyPath: EmissionModule.enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7851247264444586284, guid: b53063c8977ae429fa69492daf6378af, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7851247265391885107, guid: b53063c8977ae429fa69492daf6378af, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7851247265391885117, guid: b53063c8977ae429fa69492daf6378af, type: 3}
+      propertyPath: EmissionModule.enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b53063c8977ae429fa69492daf6378af, type: 3}
