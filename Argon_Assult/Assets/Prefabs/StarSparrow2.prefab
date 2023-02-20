@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 219644573214647406}
   - component: {fileID: 4872461563344014}
+  - component: {fileID: 1023702300579219487}
   m_Layer: 0
   m_Name: StarSparrow2
   m_TagString: Untagged
@@ -108,6 +109,9 @@ MonoBehaviour:
       m_Action: Movement
       m_Flags: 8
     m_Flags: 0
+  controlSpeed: 30
+  xRange: 9
+  yRange: 7.5
   positionPitchFactor: -2.5
   controlPitchFactor: 2
   positionYawFactor: 2
@@ -121,6 +125,20 @@ MonoBehaviour:
     m_Interactions: 
     m_SingletonActionBindings: []
     m_Flags: 0
+  lasers: []
+--- !u!65 &1023702300579219487
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 223080821640205496}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &453859027608412688
 PrefabInstance:
   m_ObjectHideFlags: 0
