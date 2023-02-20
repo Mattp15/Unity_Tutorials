@@ -15,7 +15,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float controlPitchFactor = -15f;
     [SerializeField] float positionYawFactor = 2f;    
     [SerializeField] float controlRollFactor = -20f; 
-       
+    [SerializeField] InputAction fire;   
+    [SerializeField] GameObject[] lasers;
 
 
 
@@ -27,14 +28,17 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     private void OnEnable() { //unity order of execution docs.unity3d.com/Manual/ExecutionOrder.html
         movement.Enable();
+        fire.Enable();
     }
     private void OnDisable() {
         movement.Disable();
+        fire.Disable();
     }
     void Update()
     {
         processTranslation();
         processRotation();
+        processFiring();
 
     }
     private void processRotation()
@@ -69,5 +73,36 @@ public class PlayerController : MonoBehaviour
         float clampedYPos = Mathf.Clamp(rawYPos, -yRange, yRange);
         transform.localPosition = new Vector3(clampedXPos, clampedYPos, transform.localPosition.z);
         Debug.Log(transform.localPosition.z + yOffset);
+    }
+    void processFiring()
+    {
+        //if pushing fire button
+        // then do the shooting else don't do the shooting
+        if (fire.ReadValue<float>() > 0.5f)
+        {
+            ActivateLasers();
+        }
+        else
+        {
+            DeactivateLasers();
+        }
+    }
+
+    private void ActivateLasers()
+    {
+        //Activate both lasers
+        foreach (GameObject laser in lasers)
+        {
+            laser.SetActive(true);
+        }
+    }
+
+    void DeactivateLasers()
+    {
+        //deactivate both lasers
+        foreach (GameObject laser in lasers)
+        {
+            laser.SetActive(false);
+        }
     }
 }

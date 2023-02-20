@@ -203,7 +203,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 311374481757705261, guid: 2eb9c756df68043289afeaded434922e, type: 3}
       propertyPath: looping
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 311374481757705261, guid: 2eb9c756df68043289afeaded434922e, type: 3}
       propertyPath: TrailModule.sizeAffectsWidth
@@ -280,7 +280,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 311374481757705261, guid: 2eb9c756df68043289afeaded434922e, type: 3}
       propertyPath: looping
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 311374481757705261, guid: 2eb9c756df68043289afeaded434922e, type: 3}
       propertyPath: TrailModule.sizeAffectsWidth
@@ -303,6 +303,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7540999104498401025}
     m_Modifications:
+    - target: {fileID: 4872461563344014, guid: 4fdb71ea9ff064db59843dae69faa62d, type: 3}
+      propertyPath: fire.m_Id
+      value: ee9b5c7d-0c16-44f0-ab6a-90ffa8fc9847
+      objectReference: {fileID: 0}
+    - target: {fileID: 4872461563344014, guid: 4fdb71ea9ff064db59843dae69faa62d, type: 3}
+      propertyPath: fire.m_Name
+      value: Fire
+      objectReference: {fileID: 0}
+    - target: {fileID: 4872461563344014, guid: 4fdb71ea9ff064db59843dae69faa62d, type: 3}
+      propertyPath: movement.m_SingletonActionBindings.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4872461563344014, guid: 4fdb71ea9ff064db59843dae69faa62d, type: 3}
+      propertyPath: movement.m_SingletonActionBindings.Array.data[5].m_Id
+      value: 52aa533a-6361-418f-960d-dfb4ad872129
+      objectReference: {fileID: 0}
+    - target: {fileID: 4872461563344014, guid: 4fdb71ea9ff064db59843dae69faa62d, type: 3}
+      propertyPath: movement.m_SingletonActionBindings.Array.data[5].m_Path
+      value: <Keyboard>/space
+      objectReference: {fileID: 0}
+    - target: {fileID: 4872461563344014, guid: 4fdb71ea9ff064db59843dae69faa62d, type: 3}
+      propertyPath: movement.m_SingletonActionBindings.Array.data[5].m_Action
+      value: Movement
+      objectReference: {fileID: 0}
     - target: {fileID: 219644573214647406, guid: 4fdb71ea9ff064db59843dae69faa62d, type: 3}
       propertyPath: m_RootOrder
       value: 0
