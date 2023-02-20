@@ -6,11 +6,14 @@ using UnityEngine.InputSystem;
 public class PlayerController : MonoBehaviour
 {
 
-    [SerializeField] InputAction movement;
-    float xRange = 9f;
-    float yRange = 7.5f;
-    float controlSpeed = 30f;
-    float xThrow, yThrow;
+    [Header("General Setup Settings")]
+    [Tooltip("Player input getter")] [SerializeField] InputAction movement;
+    [Header("Screen Position Tuning")]
+    [SerializeField] float controlSpeed = 30f;
+    [SerializeField] float xRange = 9f;
+    [SerializeField] float yRange = 7.5f;
+    
+    [Header("Player movement control")]
     [SerializeField] float positionPitchFactor = -2f;
     [SerializeField] float controlPitchFactor = -15f;
     [SerializeField] float positionYawFactor = 2f;    
@@ -18,7 +21,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] InputAction fire;   
     [SerializeField] GameObject[] lasers;
 
-
+    float xThrow, yThrow;
 
     void Start()
     {
