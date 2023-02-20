@@ -151,7 +151,11 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 93650598a03e42b43b19fe787c484e93, type: 2}
     - target: {fileID: 311374481757705251, guid: 2eb9c756df68043289afeaded434922e, type: 3}
       propertyPath: m_Name
-      value: Laser (1)
+      value: Laser Left
+      objectReference: {fileID: 0}
+    - target: {fileID: 311374481757705251, guid: 2eb9c756df68043289afeaded434922e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 311374481757705260, guid: 2eb9c756df68043289afeaded434922e, type: 3}
       propertyPath: m_RootOrder
@@ -203,7 +207,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 311374481757705261, guid: 2eb9c756df68043289afeaded434922e, type: 3}
       propertyPath: looping
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 311374481757705261, guid: 2eb9c756df68043289afeaded434922e, type: 3}
       propertyPath: TrailModule.sizeAffectsWidth
@@ -219,6 +223,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2eb9c756df68043289afeaded434922e, type: 3}
+--- !u!1 &7851247264444586284 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 311374481757705251, guid: 2eb9c756df68043289afeaded434922e, type: 3}
+  m_PrefabInstance: {fileID: 7540999103534075151}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7540999104449130256
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -232,7 +241,11 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 93650598a03e42b43b19fe787c484e93, type: 2}
     - target: {fileID: 311374481757705251, guid: 2eb9c756df68043289afeaded434922e, type: 3}
       propertyPath: m_Name
-      value: Laser
+      value: Laser Right
+      objectReference: {fileID: 0}
+    - target: {fileID: 311374481757705251, guid: 2eb9c756df68043289afeaded434922e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 311374481757705260, guid: 2eb9c756df68043289afeaded434922e, type: 3}
       propertyPath: m_RootOrder
@@ -280,7 +293,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 311374481757705261, guid: 2eb9c756df68043289afeaded434922e, type: 3}
       propertyPath: looping
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 311374481757705261, guid: 2eb9c756df68043289afeaded434922e, type: 3}
       propertyPath: TrailModule.sizeAffectsWidth
@@ -296,6 +309,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2eb9c756df68043289afeaded434922e, type: 3}
+--- !u!1 &7851247265391885107 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 311374481757705251, guid: 2eb9c756df68043289afeaded434922e, type: 3}
+  m_PrefabInstance: {fileID: 7540999104449130256}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7762543649979519074
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -312,8 +330,36 @@ PrefabInstance:
       value: Fire
       objectReference: {fileID: 0}
     - target: {fileID: 4872461563344014, guid: 4fdb71ea9ff064db59843dae69faa62d, type: 3}
+      propertyPath: lasers.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4872461563344014, guid: 4fdb71ea9ff064db59843dae69faa62d, type: 3}
+      propertyPath: lasers.Array.data[0]
+      value: 
+      objectReference: {fileID: 7851247264444586284}
+    - target: {fileID: 4872461563344014, guid: 4fdb71ea9ff064db59843dae69faa62d, type: 3}
+      propertyPath: lasers.Array.data[1]
+      value: 
+      objectReference: {fileID: 7851247265391885107}
+    - target: {fileID: 4872461563344014, guid: 4fdb71ea9ff064db59843dae69faa62d, type: 3}
+      propertyPath: fire.m_SingletonActionBindings.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4872461563344014, guid: 4fdb71ea9ff064db59843dae69faa62d, type: 3}
       propertyPath: movement.m_SingletonActionBindings.Array.size
-      value: 6
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4872461563344014, guid: 4fdb71ea9ff064db59843dae69faa62d, type: 3}
+      propertyPath: fire.m_SingletonActionBindings.Array.data[0].m_Id
+      value: bdb8c15d-e44c-421b-9943-0dfa773fdcab
+      objectReference: {fileID: 0}
+    - target: {fileID: 4872461563344014, guid: 4fdb71ea9ff064db59843dae69faa62d, type: 3}
+      propertyPath: fire.m_SingletonActionBindings.Array.data[0].m_Path
+      value: <Keyboard>/space
+      objectReference: {fileID: 0}
+    - target: {fileID: 4872461563344014, guid: 4fdb71ea9ff064db59843dae69faa62d, type: 3}
+      propertyPath: fire.m_SingletonActionBindings.Array.data[0].m_Action
+      value: Fire
       objectReference: {fileID: 0}
     - target: {fileID: 4872461563344014, guid: 4fdb71ea9ff064db59843dae69faa62d, type: 3}
       propertyPath: movement.m_SingletonActionBindings.Array.data[5].m_Id
