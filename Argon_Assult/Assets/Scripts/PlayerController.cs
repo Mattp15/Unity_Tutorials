@@ -41,23 +41,13 @@ public class PlayerController : MonoBehaviour
         processFiring();
 
     }
-    private void processRotation()
-    {
-        float pitchDueToPosition = transform.localPosition.y * positionPitchFactor;
-        // float pitchDueToControllThrow = yThrow * controlPitchFactor;// This makes the ship focus on the center of the screen up and down lock at -35 at max throw
-        float pitchDueToControllThrow = 0;//doesn't pitch but looks better than ^
-        
-        float pitch = pitchDueToPosition * pitchDueToControllThrow;         
-        float yaw = transform.localPosition.x * positionYawFactor; //yaw control's turning left and right, i don't want
-        float roll = xThrow * controlRollFactor;
-        transform.localRotation = Quaternion.Euler(pitch, yaw, roll);
-    }
+
 
     private void processTranslation()
     {
         //BELOW IS OLD SYSTEM
-        // float horizontalThrow = Input.GetAxis("Horizontal");
-        // float verticalThrow = Input.GetAxis("Vertical");
+        // xThrow = Input.GetAxis("Horizontal");
+        // yThrow = Input.GetAxis("Vertical");
 
         //Below is the new system
         xThrow = movement.ReadValue<Vector2>().x;//.x impliments horizontal axis (x-axis)
@@ -72,7 +62,18 @@ public class PlayerController : MonoBehaviour
         float rawYPos = transform.localPosition.y + yOffset;
         float clampedYPos = Mathf.Clamp(rawYPos, -yRange, yRange);
         transform.localPosition = new Vector3(clampedXPos, clampedYPos, transform.localPosition.z);
-        Debug.Log(transform.localPosition.z + yOffset);
+    }  
+    private void processRotation()
+    {
+        float pitchDueToPosition = transform.localPosition.y * positionPitchFactor;
+        // float pitchDueToControllThrow = yThrow * controlPitchFactor;// This makes the ship focus on the center of the screen up and down lock at -35 at max throw
+        float pitchDueToControllThrow = 0;//doesn't pitch but looks better than ^
+        
+        float pitch = pitchDueToPosition * pitchDueToControllThrow;         
+        float yaw = transform.localPosition.x * positionYawFactor; //yaw control's turning left and right, i don't want
+        float roll = xThrow * controlRollFactor;
+        Debug.Log(xThrow);
+        transform.localRotation = Quaternion.Euler(pitch, yaw, roll);
     }
     void processFiring()
     {
