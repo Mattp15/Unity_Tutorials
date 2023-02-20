@@ -231,7 +231,7 @@ PlayableDirector:
   m_SceneBindings:
   - key: {fileID: 1061914492945401443, guid: a6a54f33195d941d5830e716414fdbdd, type: 2}
     value: {fileID: 1454352815}
-  - key: {fileID: -6174775157088691580, guid: a6a54f33195d941d5830e716414fdbdd, type: 2}
+  - key: {fileID: 3629997436654604062, guid: a6a54f33195d941d5830e716414fdbdd, type: 2}
     value: {fileID: 649281409}
   m_ExposedReferences:
     m_References: []
@@ -908,7 +908,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1454352814}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 313.8, y: 87.2, z: 312.8305}
+  m_LocalPosition: {x: 463, y: 220, z: 604}
   m_LocalScale: {x: 20, y: 20, z: 20}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1115,15 +1115,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7540999104498401025, guid: b53063c8977ae429fa69492daf6378af, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 102
+      value: 576
       objectReference: {fileID: 0}
     - target: {fileID: 7540999104498401025, guid: b53063c8977ae429fa69492daf6378af, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 170.12
+      value: 96
       objectReference: {fileID: 0}
     - target: {fileID: 7540999104498401025, guid: b53063c8977ae429fa69492daf6378af, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 60.1
+      value: -14
       objectReference: {fileID: 0}
     - target: {fileID: 7540999104498401025, guid: b53063c8977ae429fa69492daf6378af, type: 3}
       propertyPath: m_LocalRotation.w
