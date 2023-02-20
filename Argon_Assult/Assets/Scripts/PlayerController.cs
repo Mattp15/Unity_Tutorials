@@ -7,8 +7,8 @@ public class PlayerController : MonoBehaviour
 {
 
     [SerializeField] InputAction movement;
-    float xRange = 10f;
-    float yRange = 7f;
+    float xRange = 9f;
+    float yRange = 7.5f;
     float controlSpeed = 30f;
     float xThrow, yThrow;
     [SerializeField] float positionPitchFactor = -2f;
@@ -72,7 +72,6 @@ public class PlayerController : MonoBehaviour
         float pitch = pitchDueToPosition * pitchDueToControllThrow;         
         float yaw = transform.localPosition.x * positionYawFactor; //yaw control's turning left and right, i don't want
         float roll = xThrow * controlRollFactor;
-        Debug.Log(xThrow);
         transform.localRotation = Quaternion.Euler(pitch, yaw, roll);
     }
     void processFiring()
