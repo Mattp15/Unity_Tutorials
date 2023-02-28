@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class CollisionHandler : MonoBehaviour
 {
+    [SerializeField] float loadDelay = 1f;
     private void OnCollisionEnter(Collision other) 
     {
         StartCrashSequence();
@@ -12,7 +13,7 @@ public class CollisionHandler : MonoBehaviour
     private void StartCrashSequence()
     {
         GetComponent<PlayerController>().enabled = false;
-        Invoke("ReloadLevel", 1f);
+        Invoke("ReloadLevel", loadDelay);
     }
     private void ReloadLevel()
     {
