@@ -7,3 +7,8 @@ Using limited resources, strategically place towers to stop enemies from reachin
 **Core game loop**<br/>
 Survive against waves of enemies for as long as possible!<br/>
 Player has limited amount of gold<br/>
+<br/>
+**Tech Spec**<br/>
+Platform: PC/Mac/Linux<br/>
+Aspect Ratio: 1920x1080 16:9<br/>
+Input: Mouse<br/>
