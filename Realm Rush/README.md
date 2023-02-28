@@ -12,3 +12,10 @@ Player has limited amount of gold<br/>
 Platform: PC/Mac/Linux<br/>
 Aspect Ratio: 1920x1080 16:9<br/>
 Input: Mouse<br/>
+<br/>
+<br/>
+**Stretch Goals**<br/>
+**Enemy Pathfinding**<br/>
+Enemies will dynamically change their path<br/>
+**Build Timer**<br/>
+Towers will take n-seconds to build<br/>
